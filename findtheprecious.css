@@ -1,0 +1,224 @@
+@media only screen and (max-width: 600px) {
+  .divCarousel img {
+    max-height: 300px;
+  }
+  .buttons{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+
+  #fellows h2{
+    padding: 20px;
+    font-size:30pt;
+  }
+  #fellows h2 span{
+    font-size:20pt;
+  }
+  
+  .card img {
+    opacity: 0.5;
+  }
+  .card-img-overlay .text_reward {
+    background-color:  #fdfefe ;
+    width: 85%;
+    font-size: 35pt;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    left: 5%;
+    opacity: 0.75;
+  }
+  .card-img-overlay .text_dead {
+    background-color:  #fdfefe ;
+    width: 85%;
+    font-size: 35pt;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    top:40%;
+    left: 5%;
+    opacity: 0.75;
+  }
+  .reward span {
+    color: #f39c12 ;
+  }
+  .reward h3 {
+    text-align: center;
+    color: white;
+    font-size: 50pt;
+  }
+  .reward h4 {
+    position: relative;
+    top:40%;
+    text-align: center;
+    color: white;
+    font-size: 30pt;
+    opacity:0;
+  }
+  .reward:hover img {
+    opacity: 1;
+  }
+  .reward:hover h3 {
+    opacity: 0;
+  }
+  .reward:hover .text_reward {
+    opacity:0;
+  }
+  .reward:hover h4 {
+    opacity:1;
+  }
+
+  .media{
+    display: inline-block;
+    margin-right: 30px;
+  }
+  
+  footer .row{
+    background-color: grey;
+    height: 150px;
+    margin-top: 20px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .divCarousel img {
+    max-height: 300px;
+  }
+  .buttons{
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #fellows {
+    background-color: rgb(121, 114, 114);
+    border-radius: 30px;
+  }
+
+  body {
+     background-color: rgb(219, 219, 219);
+  }
+
+  h2{
+    padding: 20px;
+    font-size:30pt;
+    background-color: rgb(121, 77, 77);
+    border-radius: 30px;
+  }
+  #fellows h2 span{
+    font-size:20pt;
+  }
+  
+  .golum {
+    position: relative;
+    right: 0%;
+    border-radius: 15px;
+  }
+  .card img {
+    opacity: 0.5;
+  }
+  .card-img-overlay .text_reward {
+    background-color:  #fdfefe ;
+    width: 85%;
+    font-size: 35pt;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    left: 5%;
+    opacity: 0.75;
+  }
+  .card-img-overlay .text_dead {
+    background-color:  #fdfefe ;
+    width: 85%;
+    font-size: 35pt;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    top:40%;
+    left: 5%;
+    opacity: 0.75;
+  }
+  .reward span {
+    color: #f39c12 ;
+  }
+  .reward h3 {
+    text-align: center;
+    color: white;
+    font-size: 50pt;
+  }
+  .reward h4 {
+    position: relative;
+    top:40%;
+    text-align: center;
+    color: white;
+    font-size: 30pt;
+    opacity:0;
+  }
+  .reward:hover img {
+    opacity: 1;
+  }
+  .reward:hover h3 {
+    opacity: 0;
+  }
+  .reward:hover .text_reward {
+    opacity:0;
+  }
+  .reward:hover h4 {
+    opacity:1;
+  }
+
+  .media{
+    display: inline-block;
+    margin-right: 30px;
+  }
+  
+  footer .row{
+    background-color: rgb(126, 103, 103);
+    height: 120px;
+    margin-top: 20px;
+  }
+}
+
+.table {
+  border-color: black;
+  background-color: rgb(126, 103, 103);
+  border: solid;
+  column-width: 2px;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+   .card-img-overlay .text_reward {
+    font-size: 20pt;
+  }
+  .card-img-overlay .text_dead {
+    font-size: 20pt;
+  }
+  .reward h3 {
+    font-size: 30pt;
+  }
+  .reward h4 {
+    position: relative;
+    top:30%;
+    font-size: 20pt;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
